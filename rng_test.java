@@ -5,14 +5,14 @@ import java.util.Random;
 
 import javax.swing.*;  
 
-class JLabel_test implements ActionListener{  
+class rng_test implements ActionListener{  
 	JTextField tf;
 	JLabel l1;
 	JButton b;
 
 	Random generator = new Random();
 
-	JLabel_test(){
+	rng_test(){
 		JFrame f= new JFrame("Label Example"); 
 		tf = new JTextField();
 		tf.setBounds(50, 50, 100, 30);
@@ -54,6 +54,6 @@ class JLabel_test implements ActionListener{
 
 	public static void main(String args[])  
 	{  
-		new JLabel_test();
+		new rng_test();
 	}  
 }  
